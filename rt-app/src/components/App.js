@@ -1,24 +1,23 @@
 import React from "react";
+import Footer from "./Footer";
+import Header from "./Header";
+import MainContent from "./MainContent";
 
 function App() {
-    <div>
-        <h1>Nova pratica componentes pai e filhos</h1>
+    return (
+       
+        <div>
+            <Header/>
 
-        <nav>
-         <ul>
-            <li>link 1</li>
-            <li>link 2</li>
-            <li>link 3</li>
-         </ul>
-        </nav>
-        <main>
-            
-        </main>
+            <MainContent/>
+
+            <Footer/>   
+        </div>         
+      
 
 
 
-
-
-    </div>
-}
-export default App
+    );
+    }
+ 
+export default App;
