@@ -1,8 +1,9 @@
 import React from "react";
+import "../assets/styles.css";
 
 function Footer() {
     return (
-        <footer>Este é nosso footer</footer>
+        <footer className="footer">Este é nosso footer</footer>
     );
 }
 

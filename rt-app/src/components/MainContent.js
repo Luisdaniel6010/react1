@@ -1,8 +1,9 @@
 import React from "react";
+import "../assets/styles.css";
 
 function MainContent() {
     return(
-        <main>
+        <main className="main-component">
         <h3>Este é o conteudo principal do Site</h3>
         </main>
     );
