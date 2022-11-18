@@ -3,7 +3,7 @@ body{
 }
 
 .main-component {
-    margin: 20%;
+    margin: 18%;
     text-align: center;
     color: rgb(105, 218, 199);
     font-size: 32px;
@@ -11,8 +11,8 @@ body{
 }
 
 .header {
-    display: inline-block;
-    margin: 10px;
+    margin: 1%;
+    display:inline-flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     color: rgb(105, 218, 199);
@@ -20,10 +20,13 @@ body{
 }
 
 .footer {
-    text-align: center;
-    margin: 10px;
+    margin: 1%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     color: rgb(105, 218, 199);
 
+}
+
+.hd {
+    display:inline-flex;
 }

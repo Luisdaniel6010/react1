@@ -6,14 +6,19 @@ import "../assets/styles.css";
 
 function App() {
     return (
+<div>
+        <div>
+        <Header/>
+        </div>
        
         <div>
-            <Header/>
+        <MainContent/>
+        </div>
 
-            <MainContent/>
-
-            <Footer/>   
-        </div>         
+        <div> 
+        <Footer/>   
+        </div>  
+</div>               
 
     );
     }
